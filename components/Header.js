@@ -21,7 +21,7 @@ const Header = () => {
 
 
 	return (
-		<header className="w-full bg-[#fafafa] flex items-center justify-between shadow-sm p-2 dark:bg-[#1a1a1a]">
+		<header className="w-full bg-[#fafafa] flex flex-col sm:flex-row items-center justify-between shadow-sm p-2 dark:bg-[#1a1a1a]">
 
 			{/* Logo */}
 			<div>
@@ -67,7 +67,6 @@ const Header = () => {
 						</div>
 					</div>
 				</a>
-
 				{/* Github Card */}
 				<a
 					href="https://www.github.com/scmishra-cse"
